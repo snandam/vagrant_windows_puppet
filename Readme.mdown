@@ -2,6 +2,12 @@
 - Install [Vagrant](https://www.vagrantup.com/)
 - Install [Virutalbox](https://www.virtualbox.org/)
 
+##### Install vagrant-reload plugin
+
+```sh
+vagrant plugin install vagrant-reload
+```
+
 ##### Vagrant windows box
 
 ###### Command list
@@ -9,8 +15,6 @@
 ```sh
     # TO list installed vagrant plugins
 	vagrant plugin list
-	# To install vagrant-reload plugin
-	vagrant plugin install vagrant-reload
 	# To bring the vagrant box up
 	vagrant up
 	# To provision the box after the box is up
