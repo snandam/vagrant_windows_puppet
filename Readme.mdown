@@ -1,0 +1,31 @@
+##### Download and install necessary softwares
+- Install [Vagrant](https://www.vagrantup.com/)
+- Install [Virutalbox](https://www.virtualbox.org/)
+
+##### Vagrant windows box
+
+###### Command list
+
+```sh
+    # TO list installed vagrant plugins
+	vagrant plugin list
+	# To install vagrant-reload plugin
+	vagrant plugin install vagrant-reload
+	# To bring the vagrant box up
+	vagrant up
+	# To provision the box after the box is up
+	vagrant provision
+	# To provision only a specific provider
+	vagrant provision --provision-with puppet
+	# login
+	vagrant rdp
+	# To suspend
+	vagrant halt
+	# To destroy 
+	vagrant destroy
+	# For status of the boxes
+	vagrant status
+	# To get conf directory
+	puppet agent --configprint confdir
+```
+
