@@ -25,7 +25,5 @@
 	vagrant destroy
 	# For status of the boxes
 	vagrant status
-	# To get conf directory
-	puppet agent --configprint confdir
 ```
 
