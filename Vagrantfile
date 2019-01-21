@@ -7,7 +7,7 @@ VAGRANTFILE_API_VERSION = "2"
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Vagrant box details. Will download from the below location if it's not cached locally
   config.vm.box = "ferventcoder/win2008r2-x64-nocm"
-  config.vm.box_url = "https://vagrantcloud.com/ferventcoder/boxes/win2008r2-x64-nocm/versions/1/providers/virtualbox.box"
+  config.vm.box_url = "https://vagrantcloud.com/ferventcoder/boxes/win2008r2-x64-nocm/versions/1.0.1/providers/virtualbox.box"
   
 
   # Needed to let vagrant know to use winrm instead of ssh for communication
